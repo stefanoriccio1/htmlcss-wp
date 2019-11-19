@@ -108,15 +108,25 @@ main {
   float: left;
   width: 60%;
 }
+.title{
+  margin-bottom: 10px;
+}
+/* ul */
+.leftlist {
+  list-style: none;
+}
+.leftlist li a{
+  text-decoration: none;
+  color: green;
+}
+.leftlist li{
+  margin-bottom: 10px;
+}
 /* colonna centro */
 .centro{
   width: 50%;
   background-color: lightblue;
   margin: 0 3%;
-}
-.leftlist {
-  list-style: none;
-  text-decoration: none;
 }
 /* colonna destra */
 .destra{

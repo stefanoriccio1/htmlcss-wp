@@ -68,6 +68,9 @@ display: inline-block;
 .lista li:first-child a{
   border-left: 0;
 }
+.menu .lista li a:hover{
+  background-color: darkgrey;
+}
 /* main */
 main:after {
   content: "";
@@ -125,13 +128,26 @@ main {
 /* colonna centro */
 .centro{
   width: 50%;
-  background-color: lightblue;
   margin: 0 3%;
+}
+h2 {
+  font-size: 30px;
+  text-shadow: 3px 3px gray;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.centro .text {
+ line-height: 24px;
+ margin-bottom: 10px;
+ text-align: justify;
+}
+.testlink{
+  color: green;
+  text-decoration: none;
 }
 /* colonna destra */
 .destra{
   width: 22%;
-  background-color: pink;
 }
 /* boxes */
 .destra .box{

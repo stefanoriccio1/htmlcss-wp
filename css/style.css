@@ -9,14 +9,13 @@ body{
 }
 /* page */
 .page{
-  width: 1000px;
+  width: 1100px;
   margin: 20px auto;
 }
 /* header */
 header {
   position: relative;
   height:300px;
-  background-color: red;
 }
 /* header top */
 .headertop{
@@ -76,10 +75,11 @@ main:after {
   clear: both;
 }
 main {
-  /* height: 800px; */
   background-color: green;
-  padding: 5px;
+  padding: 10px 0;
 }
+/* colonna sinistra */
+
 /* footer */
 footer{
   height: 200px;

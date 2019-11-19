@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* body */
+body{
+  font-family: 'Raleway', sans-serif;
+}
 /* page */
 .page{
   width: 1000px;
@@ -10,8 +14,29 @@
 }
 /* header */
 header {
+  position: relative;
   height:300px;
   background-color: red;
+}
+/* header top */
+.headertop{
+ position: relative;
+ height: 250px;
+ border: 10px solid white;
+ background-image: url(../img/natural-header.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.intestazione {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.logo{
+  width: 100%;
+  height: auto;
 }
 /* main */
 main:after {
@@ -54,12 +79,12 @@ footer{
   border: 3px solid black;
   margin-bottom: 5px;
 }
-.menu li{
+/* .menu li{
   display: inline-block;
   margin-right: 10px;
 }
 ul.menu {
   list-style: none;
   text-align: center;
-  line-height: 80px;
+  line-height: 80px; */
 }

@@ -78,13 +78,6 @@ main {
   background-color: green;
   padding: 10px 0;
 }
-/* colonna sinistra */
-
-/* footer */
-footer{
-  height: 200px;
-  background-color: yellow;
-}
 /* colonne */
 .colonna{
   float: left;
@@ -92,15 +85,40 @@ footer{
   width: 200px; */
   padding: 10px;
 }
+.colonna {
+  background-color: white;
+  border-radius: 3%;
+}
+/* colonna sinistra */
 .sinistra {
   width: 22%;
-  background-color: orange;
 }
+.sinistra .title:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.title .icon{
+  float: left;
+  margin-right: 5px;
+  font-size: 20px;
+  color: orange;
+}
+.title h3 {
+  float: left;
+  width: 60%;
+}
+/* colonna centro */
 .centro{
   width: 50%;
   background-color: lightblue;
   margin: 0 3%;
 }
+.leftlist {
+  list-style: none;
+  text-decoration: none;
+}
+/* colonna destra */
 .destra{
   width: 22%;
   background-color: pink;
@@ -109,4 +127,9 @@ footer{
 .destra .box{
   border: 3px solid black;
   margin-bottom: 5px;
+}
+/* footer */
+footer{
+  height: 200px;
+  background-color: yellow;
 }

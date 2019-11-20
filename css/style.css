@@ -17,7 +17,7 @@ body{
 /* header */
 header {
   position: relative;
-  height:300px;
+  /* height:300px; */
 }
 /* header top */
 .headertop{
@@ -34,9 +34,12 @@ header {
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
 }
 .logo{
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 /* header bottom */
@@ -133,7 +136,7 @@ main {
   margin: 0 3%;
   background-color: white;
 }
-h2 {
+.centro h2 {
   font-size: 30px;
   text-shadow: 3px 3px gray;
   text-transform: uppercase;
